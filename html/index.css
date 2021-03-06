@@ -1,0 +1,268 @@
+* {
+    padding-top: 0;
+    margin: 0;
+}
+
+body {
+    animation: fadeIn 1s linear;
+    background-color: rgb(20, 33, 61);
+    color: rgb(160, 158, 156);
+}
+
+.welcome {
+    color: rgb(160, 158, 156);
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    width: 100%;
+    background-image: url("background2.jpg");
+    background-position: center;
+}
+
+.welcome p img {
+    height: 250px;
+    width: 220px;
+    border-radius: 50%;
+}
+
+.welcome header {
+    color: white;
+    text-align: center;
+}
+
+.p1 {
+    width: 100%;
+    font-size: 20px;
+    color: rgb(160, 158, 156);
+    padding-left: 5%;
+    float: left;
+}
+
+.p1 p {
+    padding-top: 20px;
+    width: 70%;
+}
+
+.p1 p a {
+    text-decoration: none;
+    color: tan;
+}
+
+.p1 p2 {
+    font-size: 30px;
+    float: left;
+}
+
+.projects h1 {
+    padding-top: 25px;
+    padding-left: 5%;
+    float: left;
+    font-size: 40px;
+}
+
+.projects h2 {
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 5%;
+    float: left;
+}
+
+.projects p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    font-size: 20px;
+    float: left;
+}
+
+.projects p a {
+    color: tan;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.projects p a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.resume {
+    width: 100%;
+    float: left;
+}
+
+.resume a {
+    font-size: 30px;
+}
+
+.awards {
+    padding-bottom: 50px;
+}
+
+.awards h1 {
+    padding-top: 45px;
+    padding-left: 5%;
+    float: left;
+    width: 100%;
+    font-size: 40px;
+}
+
+.awards h2 {
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 5%;
+    float: left;
+}
+
+.awards p {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 5%;
+    font-size: 20px;
+    float: left;
+}
+
+.work {
+    padding-bottom: 50px;
+}
+
+.work h1 {
+    padding-top: 50px;
+    padding-left: 5%;
+    float: left;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(160, 158, 156);
+}
+
+.work h2 {
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 5%;
+    float: left;
+}
+
+.work h3 {
+    padding-left: 5%;
+    font-size: 18px;
+    width: auto;
+    padding-right: 5%;
+    float: left;
+}
+
+.work h4 {
+    float: left;
+    padding-left: 5%;
+}
+
+.work p2 {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 5%;
+    font-size: 20px;
+    float: left;
+}
+
+.volunteer h1 {
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-bottom: 15px;
+    float: left;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(160, 158, 156);
+}
+
+.volunteer h2 {
+    width: 100%;
+    padding-left: 5%;
+    float: left;
+}
+
+.volunteer h3 {
+    float: left;
+    width: auto;
+    padding-left: 5%;
+}
+
+.volunteer h4 {
+    width: 100%;
+    float: left;
+    padding-left: 5%;
+}
+
+.volunteer p {
+    width: 70%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 5%;
+    font-size: 20px;
+    float: left;
+}
+
+.skill h1 {
+    float: left;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 45px;
+    font-size: 40px;
+    color: rgb(160, 158, 156);
+}
+
+.skill table {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.skill table th {
+    padding-top: 5px;
+    float: left;
+    padding-left: 5%;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+.skill table td {
+    font-size: 20px;
+    border-collapse: collapse;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    background-image: url("background2.jpg");
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact .linkedin img {
+    width: 25%;
+    height: 25%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 15px;
+}
+
+.hand img {
+    float: right;
+    padding-right: 20%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
