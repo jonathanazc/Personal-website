@@ -256,6 +256,8 @@ footer {
 .hand img {
     float: right;
     padding-right: 20%;
+    height: 20%;
+    width: 20%;
 }
 
 @keyframes fadeIn {
