@@ -5,7 +5,6 @@
 
 body {
     animation: fadeIn 1s linear;
-    background-color: rgb(20, 33, 61);
     color: rgb(160, 158, 156);
 }
 
@@ -32,6 +31,23 @@ body {
     text-align: center;
 }
 
+.contents {
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    color: rgb(160, 158, 156);
+}
+
+.contents a {
+    text-decoration: none;
+    color: rgb(160, 158, 156);
+    border: 2px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .p1 {
     width: 100%;
     font-size: 20px;
@@ -43,6 +59,7 @@ body {
 .p1 p {
     padding-top: 20px;
     width: 70%;
+    color: rgb(160, 158, 156);
 }
 
 .p1 p a {
@@ -53,6 +70,7 @@ body {
 .p1 p2 {
     font-size: 30px;
     float: left;
+    color: rgb(160, 158, 156);
 }
 
 .projects h1 {
@@ -60,6 +78,7 @@ body {
     padding-left: 5%;
     float: left;
     font-size: 40px;
+    color: rgb(160, 158, 156);
 }
 
 .projects h2 {
@@ -67,6 +86,7 @@ body {
     padding-top: 25px;
     padding-left: 5%;
     float: left;
+    color: rgb(160, 158, 156);
 }
 
 .projects p {
@@ -74,6 +94,7 @@ body {
     padding-bottom: 5px;
     padding-left: 5%;
     font-size: 20px;
+    color: rgb(160, 158, 156);
     float: left;
 }
 
@@ -85,12 +106,14 @@ body {
 
 .projects p a:hover {
     text-decoration: underline;
+    color: rgb(160, 158, 156);
     color: white;
 }
 
 .resume {
     width: 100%;
     float: left;
+    color: rgb(160, 158, 156);
 }
 
 .resume a {
@@ -99,6 +122,7 @@ body {
 
 .awards {
     padding-bottom: 50px;
+    color: rgb(160, 158, 156);
 }
 
 .awards h1 {
@@ -107,6 +131,7 @@ body {
     float: left;
     width: 100%;
     font-size: 40px;
+    color: rgb(160, 158, 156);
 }
 
 .awards h2 {
@@ -114,6 +139,7 @@ body {
     padding-top: 25px;
     padding-left: 5%;
     float: left;
+    color: rgb(160, 158, 156);
 }
 
 .awards p {
@@ -122,6 +148,7 @@ body {
     padding-left: 5%;
     font-size: 20px;
     float: left;
+    color: rgb(160, 158, 156);
 }
 
 .work {
@@ -142,6 +169,7 @@ body {
     padding-top: 25px;
     padding-left: 5%;
     float: left;
+    color: rgb(160, 158, 156);
 }
 
 .work h3 {
@@ -150,11 +178,13 @@ body {
     width: auto;
     padding-right: 5%;
     float: left;
+    color: rgb(160, 158, 156);
 }
 
 .work h4 {
     float: left;
     padding-left: 5%;
+    color: rgb(160, 158, 156);
 }
 
 .work p2 {
@@ -163,6 +193,7 @@ body {
     padding-bottom: 15px;
     padding-left: 5%;
     font-size: 20px;
+    color: rgb(160, 158, 156);
     float: left;
 }
 
@@ -180,18 +211,21 @@ body {
     width: 100%;
     padding-left: 5%;
     float: left;
+    color: rgb(160, 158, 156);
 }
 
 .volunteer h3 {
     float: left;
     width: auto;
     padding-left: 5%;
+    color: rgb(160, 158, 156);
 }
 
 .volunteer h4 {
     width: 100%;
     float: left;
     padding-left: 5%;
+    color: rgb(160, 158, 156);
 }
 
 .volunteer p {
@@ -200,6 +234,7 @@ body {
     padding-bottom: 15px;
     padding-left: 5%;
     font-size: 20px;
+    color: rgb(160, 158, 156);
     float: left;
 }
 
@@ -224,6 +259,7 @@ body {
     padding-bottom: 5px;
     font-size: 20px;
     border-collapse: collapse;
+    color: rgb(160, 158, 156);
 }
 
 .skill table td {
@@ -233,6 +269,7 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
+    color: rgb(160, 158, 156);
 }
 
 footer {
@@ -245,20 +282,29 @@ footer {
     padding-bottom: 10px;
 }
 
-.contact .linkedin img {
+
+/*.contact .linkedin img {
     width: 25%;
     height: 25%;
     float: left;
     padding-left: 5%;
     padding-right: 15px;
+}*/
+
+.contact .linkedin {
+    padding-left: 40%;
+    padding-right: 45%;
+    float: left;
+    width: 100%;
 }
 
-.hand img {
+
+/*.hand img {
     float: right;
     padding-right: 20%;
     height: 20%;
     width: 20%;
-}
+}*/
 
 @keyframes fadeIn {
     from {
