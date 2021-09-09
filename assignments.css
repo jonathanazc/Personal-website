@@ -1,0 +1,41 @@
+body {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    font-size: 25px;
+}
+
+.list {
+    float: left;
+    font-size: 19px;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    color: rgb(160, 158, 156);
+}
+
+.list a {
+    text-decoration: none;
+    color: rgb(160, 158, 156);
+    border: 2px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.home {
+    float: left;
+    width: 100%;
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+.home a {
+    text-decoration: none;
+    color: rgb(160, 158, 156);
+    border: 2px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+}

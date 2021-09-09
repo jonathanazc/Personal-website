@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <title>The Bean Counter</title>
+</head>
+
+<body style="background-color: rgb(75, 45, 0);" text="#FF9900" align="center">
+    <script language='JavaScript'>
+        var shots = 1;
+        var drink = "none";
+        var ounce = 0;
+    </script>
+    <font face="Helvetica" , "Arial">
+        <h1 align="center">
+            <font color="#C9D6FF">the bean counter</font>
+        </h1>
+        <h2 align="center" style="color: #C9D6FF;">
+            Jonathan Azcona
+        </h2>
+        </color>
+        <hr width=50%>
+        <p align="center"><b>figuring the price of espresso drinks<br>
+      so baristas can have time to chat</b></p>
+        <form name="Bean">
+            <center>
+                <table border=2>
+                    <tr>
+                        <td>
+                            <table bgcolor="#993300">
+                                <tr>
+                                    <td>
+                                        <input type=button value="  2  " onClick='shots = 2'>
+                                    </td>
+                                    <td>
+                                        <input type=button value="  T  " onClick='ounce = 12'>
+                                    </td>
+                                    <td align="center">
+                                        <input type=button value="LATTE" onClick='drink = "latte"'>
+                                    </td>
+                                    <input type="button" value="This is a JOKE" onclick="location.href='https://www.psu.edu'"> </tr>
+                                <tr>
+                                    <td>
+                                        <input type=button value="  1  " onClick='shots = 1'>
+                                    </td>
+                                    <td>
+                                        <input type=button value="  S  " onClick='ounce = 8	'>
+                                    </td>
+                                    <td align="center">
+                                        <input type=button value="ESPRESSO" onClick='drink = "espresso"'>
+                                    </td>
+                                    <td>
+                                        <input type=button value="Clear" onClick='shots = 1; 
+                drink = "none";
+                ounce = 0; 
+                document.Bean.price.value = "0.00"'>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type=button value="  3  " onClick='shots = 3'>
+                                    </td>
+                                    <td>
+                                        <input type=button value="  G  " onClick='ounce = 16'>
+                                    </td>
+                                    <td align="center">
+                                        <input type=button value="CAPPUCCINO" onClick='drink = "cappuccino"'>
+                                    </td>
+                                    <td>
+                                        <input type=button value="Total" onClick='var price;
+          var taxRate = 0.06;
+          if (drink == "espresso")
+             price = 1.40;
+          if (drink == "latte" || drink == "cappuccino") {
+             if (ounce == 8)
+                price = 1.95;
+             if (ounce == 12)
+                price = 2.35;
+             if (ounce == 16)
+                price = 2.75;
+          }
+          if (drink == "Americano")
+             price = 1.20 + .30 * (ounce/8);
+          price = price + (shots - 1) * .50;
+          price = price + price * taxRate;
+          document.Bean.price.value = Math.round(price*100)/100;
+          '>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type=button value="  4  " onClick='shots = 4'>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td align="center">
+                                        <input type=button value="AMERICANO" onClick='drink = "Americano"'>
+                                    </td>
+                                    <td bgcolor="red" align="center">
+                                        <input type=text name=price value="0.00" size=5>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </form>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="color: blanchedalmond;">Link to YouTube</a>
+</body>
+
+</html>
